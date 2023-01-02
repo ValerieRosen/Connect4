@@ -2,9 +2,9 @@
 
 ## Table of Contents
 
-* [How To Play](#How To Play)
-* [Contributing](#Contributing)
-* [Dependencies](#Dependencies)
+* [How To Play](#howtoplay)
+* [Contributing](#contributing)
+* [Dependencies](#dependencies)
 
 ## How To Play
 To play game, player 1 (red token) starts with selecting a yellow square at the top. Next, player 2(blue token) does the same. Players take turns until
