@@ -1,7 +1,18 @@
-# Connect 4
+# Connect 4 Project
 
-* Instructions[#Instructions]
-* How To Play[#How To Play]
-* Dependencies[#Dependencies]
+## Table of Contents
 
-#### This game was created with a focus on JS skills to create table rows where the end user can select the yellow boxes to add tokens until one player reaches "4" in a row. 
+* [How To Play](#How To Play)
+* [Contributing](#Contributing)
+* [Dependencies](#Dependencies)
+
+## How To Play
+To play game, player 1 (red token) starts with selecting a yellow square at the top. Next, player 2(blue token) does the same. Players take turns until
+one player connects four tokens in a row and the game over modal alerts the winner. 
+
+## Contributing
+This game was modified from starter code that was provided by the instructor. TODOS were placed throughout the JS and CSS in order to make the game function. CSS and HTML were modified to make the game more user friendly.
+
+## Dependencies
+Fonts were provided by Google Fonts. 
+
