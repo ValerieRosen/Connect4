@@ -1,0 +1,84 @@
+body {
+  background-color: lightblue;
+  text-align: center;
+}
+
+h1,
+p {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Rubik Bubbles", cursive;
+  color: blue;
+}
+
+#heading {
+  width: auto;
+}
+
+#newgame {
+  background-color: #111827;
+  border: 1px solid transparent;
+  border-radius: 0.75rem;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  flex: 0 0 auto;
+  font-family: "Inter var", ui-sans-serif, system-ui, -apple-system, system-ui,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  padding: 0.75rem 1.2rem;
+  text-align: center;
+  text-decoration: none #6b7280 solid;
+  text-decoration-thickness: auto;
+  transition-duration: 0.2s;
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+}
+
+#newgame :hover {
+  background-color: #374151;
+}
+
+#newgame :focus {
+  box-shadow: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+/* game board table */
+#board td {
+  width: 50px;
+  height: 50px;
+  border: solid 3px #666;
+}
+
+/* pieces are div within game table cells: draw as colored circles */
+.piece {
+  /* TODO: make into circles */
+  margin: 5px;
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+}
+
+/* TODO: make pieces red/blue,  depending on player 1/2 piece */
+.piece.p1 {
+  background-color: red;
+}
+.piece.p2 {
+  background-color: blue;
+}
+
+/* column-top is table row of clickable areas for each column */
+#column-top td {
+  border: solid 3px gold;
+}
+#column-top td:hover {
+  background-color: gold;
+}
