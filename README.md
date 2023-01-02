@@ -1,4 +1,4 @@
-# Connect4
+# Connect 4
 
 * Instructions[Instructions]
 * How To Play[How To Play]
